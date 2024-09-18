@@ -1,9 +1,7 @@
 import React from 'react'
 import { CardsData } from "./data.ts"
 
-interface Props {
-    className?: string;
-}
+
 
 
 interface CardProps {
@@ -15,7 +13,7 @@ interface CardProps {
 }
 
 
-export const Cards: React.FC<Props> = ({ className }) => {
+export const Cards: React.FC = () => {
 
     const [activeCard, setActiveCard] = React.useState<number>(0)
 
