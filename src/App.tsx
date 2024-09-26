@@ -1,15 +1,17 @@
 import "./index.css"
 
-import { Cards } from "./projects/01_ExpandingCards"
+import { ProgressSteps } from "./projects/02_ProgressSteps"
 
 
 function App() {
 
 
   return (
-    <>
-      <Cards />
-    </>
+    <div
+    className="relative"
+    >
+      < ProgressSteps />
+    </div>
   )
 }
 
